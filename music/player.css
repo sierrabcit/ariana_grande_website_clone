@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+*{
+  text-decoration:none; 
+  list-style:none; 
+  margin:0px; 
+  padding:0px; 
+  outline:none;
+}
+@keyframes fadeIn { 
+  from { 
+    opacity:0; 
+  } to { 
+    opacity:1; 
+  } 
+}
+.fade-in {
+  opacity:0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+}
+body {
+  margin:0px; 
+  padding:0px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+#album{
+  position: absolute;
+  width: 200px;
+  height:200px;
+  margin-top:8%;
+  left:39.5%;
+}
+.content audio{
+  display: inline;
+  top:50%;
+}
+
+
+#buttons {
+  position: absolute;
+  font-size: 1em;
+  font-family: 'Rozha One', serif;
+  color: white;
+  width: auto;
+  margin: 0px;
+  top:65%;
+  left:39%;
+}
+.backHome{
+  width:60px;
+  height:30px;
+  background-color: black;
+  margin:20px;
+  border:none;
+  border-radius:10px;
+  
+}
+#song-title {
+  text-align: center;
+  position: absolute;
+  top:60%;
+  left:75%;
+  
+}
+#song-title p{
+  color: black;
+  font-weight: bolder;
+  left:50%;
+}
+.backHome a{
+  color: white;
+}
+.backHome a:hover{
+  background-color:white;
+  color: black;
+  transition: all 0.5s ease 0s;
+}
+
+
+section{
+  width:100%; 
+  max-width:1200px; 
+  margin:0px auto; 
+  display:table; 
+  position:relative;
+}
+
+.content{
+  display:table; 
+  width:900px;
+}
+
+.content p{
+  font-size:14px; 
+  line-height:22px; 
+  color:#7c7c7c; 
+  text-align:justify;
+}
+
+@media only screen and (max-width:1080px){
+  img{
+    width: 300px;
+    margin:0;
+  }
+  #album {
+    left:10%;
+    top:10px;
+  }
+  .content audio{
+    left:-110px;
+    position:absolute;
+  }
+   #song-title{
+   display: none;
+  } 
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sierra Schuss Final Project - HTML5 and CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+<header>
+<section>
+
+
+<label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+<input type="checkbox" id="toggle-1">
+<h1><a href="index.html" id="sitetitle">Ariana Grande</a></h1>
+
+   <!-- Login Modal --> 
+<div class="form-popup" id="loginform">
+  <form action="#" class="form-container">
+    <h4>Login</h4>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="password" required>
+
+    <button type="submit" class="button">Login</button>
+    <button type="button" class="button cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<!-- -----------------  -->  
+  
+  
+<nav>
+<ul>
+<li><a href="#" class="fa fa-facebook"></a></li>
+<li><a href="#" class="fa fa-instagram"></a></li>
+<li><a href="#" class="fa fa-music"></a></li>
+<li><a href="#" class="fa fa-spotify"></a></li>
+<li><a href="#" class="fa fa-twitter"></a></li>
+<li><a href="#" class="fa fa-youtube"></a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="#" onclick="openForm()" id="open-button">Login</a></li>
+</ul>
+</nav>
+  </section>
+    </header>
+
+
+<div style="background-color:#2B2826">
+<section id="tour" class="content">
+<img src="img/tour.jpg"/>
+</section>
+  
+<section id="dates" class="content">
+  <table>
+  <tr>
+    <td>Mar 18</td>
+    <td>Albany, NY, USA<br><i>Times Union Center</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+  <tr>
+    <td>Mar 20</td>
+    <td>Boston, MA, USA<br><i>TD Garden</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+  <tr>
+    <td>Mar 22</td>
+    <td>Buffalo, NY, USA<br><i>KeyBank Center</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+  <tr>
+    <td>Mar 25</td>
+    <td>Washington, DC, USA<br><i>Capitol One Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+   <tr>
+    <td>Mar 26</td>
+    <td>Philadelphia, PA, USA<br><i>Wells Fargo Center</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+   <tr>
+    <td>Mar 28</td>
+    <td>Cleveland, OH, USA<br><i>Quicken Loans Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+   <tr>
+    <td>Mar 30</td>
+    <td>Uncaseville, CT, USA<br><i>Mohegan Sun Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+   <tr>
+    <td>Apr 1</td>
+    <td>Montréal, Canada<br><i>Bell Centre</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+   <tr>
+    <td>Apr 3</td>
+    <td>Toronto, Canada<br><i>Scotiabank Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+    <tr>
+    <td>Apr 5</td>
+    <td>Detroit, MI, USA<br><i>Little Caesars Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+    <tr>
+    <td>Apr 14</td>
+    <td>Indio, CA, USA<br><i>Coachella</i></td>
+    <td><a href="#">Tickets</a></td>
+  </tr>
+    <tr>
+    <td>Apr 21</td>
+    <td>Indio, CA, USA<br><i>Coachella</i></td>
+    <td><a href="#">Tickets</a></td>
+  </tr>
+    <tr>
+    <td>Apr 25</td>
+    <td>Edmotonton, Canada<br><i>Rogers Place</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+    <tr>
+    <td>Apr 27</td>
+    <td>Vancouver, Canada<br><i>Rogers Arena</i></td>
+    <td><a href="#">Tickets</a><a style="margin-right: 10px;" href="#">VIP</a></td>
+  </tr>
+    
+  </table>
+  </section>
+
+</div>   
+<footer>
+ <a href="#"><img src="img/RR2.jpg"/></a>
+  <nav>
+<ul>
+<li><a href="#">Copyright Republic Records</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Why Music Matters</a></li>
+</ul>
+</nav>
+    </footer>
+    <script src="js/login.js"></script>
+  </body>
+</html>

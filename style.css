@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+*{
+  text-decoration:none; 
+  list-style:none; 
+  margin:0px; 
+  padding:0px; 
+  outline:none;
+}
+
+body {
+  margin:0px; 
+  padding:0px;
+  font-family: 'Raleway', sans-serif;
+}
+img, .video {
+  width: 1000px;
+}
+#album img {
+  position: absolute;
+  top:50%;
+}
+
+table {
+  border:none;
+  width: 900px;
+  padding:20px;
+}
+
+table tr td{
+  font-family: 'Raleway' sans-serif;
+  font-size:15px;
+  color: white;
+  word-spacing: 0px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+table tr td a {
+  border:1px solid white;
+  padding: 5px;
+  color: white;
+  float: right;
+
+}
+table tr td a:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease 0s;
+}
+
+#sitetitle{
+  float:left;
+  position: relative;
+  text-align: left;
+  transform:rotate(-180deg);
+  font-size:40px; 
+  font-family: 'Rozha One', serif;
+  color: black; 
+  font-weight:400; 
+  padding:30px;
+
+}
+.overlap {
+  position: absolute;
+  font-size: 6em;
+  font-family: 'Rozha One', serif;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlap:hover{
+  color:black;
+  transition: all 0.5s ease 0s;
+}
+.overlap2 {
+  position: absolute;
+  font-size: 3em;
+  font-weight: 100;
+  float: left;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  color: white;
+  left: 50%;
+  top:20%;
+  transform: rotate(-180deg)translate(50%, -50%);
+
+}
+.overlap2:hover{
+  color:black;
+  transition: all 0.5s ease 0s;
+}
+.overlap3 {
+  position: absolute;
+  font-size: 3em;
+  font-weight: 100;
+  float: left;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  color: white;
+  left: 50%;
+  top:20%;
+  transform: rotate(-180deg)translate(50%, -50%);
+
+}
+.overlap3:hover{
+  color:black;
+  transition: transition: all 0.5s ease 0s;
+}
+.overlap4 {
+  position: absolute;
+  font-size: 3em;
+  font-weight: 100;
+  float: left;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  color: white;
+  left: 75%;
+  top:-30%;
+  transform: rotate(-180deg)translate(50%, -50%);
+
+}
+.overlap4:hover{
+  color:black;
+  transition: transition: all 0.5s ease 0s;
+}
+button {
+  position: absolute;
+  font-size: 1.25em;
+  font-family: 'Rozha One', serif;
+  color: white;
+  left: 50%;
+  top: 70%;
+  padding:5px;
+  transform: translate(-50%, -50%);
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px black;
+  border-radius: 10px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+}
+button a {
+  color: white;
+}
+button a:hover{
+  color:black;
+  transition: all 0.5s ease 0s;
+}
+
+section{
+  width:100%; 
+  max-width:1200px; 
+  margin:0px auto; 
+  display:table; 
+  position:relative;
+}
+
+header{
+  width:100%;
+  display:table; 
+  margin-bottom:0px;
+}
+
+nav{
+  width:auto; 
+  float:right;
+  position: relative;
+  top:20px;
+  font-family: 'Rozha One', serif;
+}
+
+nav ul{
+  display:table; 
+  float:left;
+  
+}
+nav ul li{
+  float:left;
+}
+nav ul li:last-child{
+  padding-left:0px;
+}
+nav ul li a{
+  color:black; 
+  font-size:22px;
+  line-height: 8px;
+  padding: 25px 20px; 
+  display:inline-block; 
+  transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover{ 
+  color:lavender; 
+  transition: all 0.5s ease 0s;
+}
+nav ul li a:hover i{
+  color:lavender;
+  transition: all 0.5s ease 0s;
+}
+nav ul li a i{
+  padding-right:10px; 
+  color:#002e5b; 
+  transition: all 0.5s ease 0s;
+}
+
+footer nav{
+  font-family: 'Amiri', serif;
+  background-color: black;
+}
+footer nav ul{
+  display:table; 
+  float:right;
+}
+footer nav ul li{
+  float:right;
+}
+footer nav ul li:last-child{
+  padding-right:0px;
+}
+footer nav ul li a{
+  color:white; 
+  font-size:13px;
+  line-height: 8px;
+  padding: 25px 20px; 
+  display:inline-block; 
+  transition: all 0.5s ease 0s;
+}
+footer img{
+  width:60px;
+  margin-top:15px;
+  margin-left:15px;
+}
+
+.toggle-menu ul{
+  display:table; 
+  width:25px;
+}
+.toggle-menu ul li{
+  width:100%;
+  height:3px;
+  background-color:black;
+  margin-bottom:4px;
+}
+.toggle-menu ul li:last-child{
+  margin-bottom:0px;
+}
+
+input[type=checkbox], label{
+  display:none;
+}
+
+.content{
+  display:table; 
+  width:900px;
+}
+.content h2{
+  font-size:18px; 
+  font-weight:500; 
+  color:#002e5b; 
+  border-bottom:1px solid #fde428;
+  display:table; 
+
+}
+.content p{
+  font-size:14px; 
+  line-height:22px; 
+  color:#7c7c7c; 
+  text-align:justify;
+}
+
+footer{
+  background-color:black;
+  display:table; 
+  padding-bottom:30px; 
+  width:100vw;
+  height:10px;
+}
+
+@media only screen and (max-width: 1440px) {
+section{
+  max-width:95%;
+  }
+  img, .video {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+}
+
+@media only screen and (max-width: 980px) {
+header{
+  padding:20px 0px;
+  }
+#sitetitle{
+  text-align: center;
+  position: relative;
+  top: -10px;
+  left: 0px;
+  padding:0px;
+  }
+  img, .video {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+input[type=checkbox] {
+  position: absolute; 
+  top: -9999px; 
+  left: -9999px; 
+  background:none;
+  }
+input[type=checkbox]:fous{
+  background:none;
+  }
+label {
+  float:left;
+  padding:8px 0px; 
+  display:inline-block;
+  cursor:pointer;
+  }
+input[type=checkbox]:checked ~ nav {
+  display:block;
+  }
+
+nav{
+  display:none;
+  position:absolute;
+  background-color:black;
+  z-index:99;
+   margin:0;
+  padding:0;
+  }
+nav ul{
+  
+  }
+nav ul li{
+  float:none;
+  padding:0px;
+  width:500px;;
+  display:inline;
+  text-align: center;
+  }
+nav ul li a{
+  color:#FFF;
+  font-size:15px;
+  padding:10px 20px;
+  display:block;
+  border-bottom: 1px solid rgba(225,225,225,0.1);
+  }
+nav ul li a i{
+  padding-right:13px;
+  }
+}
+@media only screen and (max-width:1080px){
+  img{
+    width: 300px;
+    margin:0;
+  }
+  button{
+    display: none;
+  }
+  .overlap{
+    font-size:2em;
+    text-align: center;
+  }
+  #light a{
+    font-size:0em;
+  }
+  .overlap2{
+    font-size:1.5em;
+    text-align: center;
+    top:50%;
+  }
+  .overlap3{
+    font-size:2em;
+    top:15px;
+    text-align: center;
+  }
+  .overlap4{
+    font-size:1.2em;
+    top:15%;
+    text-align: center;
+  }
+  #perfume a{
+    font-size:1em;
+  }
+  table {
+  border:none;
+  width: 350px;
+  padding:5px;
+}
+  table tr td {
+    font-size:12px;
+  }
+
+  #tyn a{
+    font-size: 1.5em;
+  }
+  footer {
+    height:30px;
+    width:100%;
+  }
+  footer img {
+    width:10%;
+    padding:1px;
+    position: absolute;
+    left:43%
+  }
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  
+
+}
+@media only screen and (max-width: 980px) {
+.content{
+  width:90%;
+  }
+  #sitetitle {
+    text-align: center;
+  }
+  img {
+    width:380px;
+    margin:0;
+  }
+ .responsive {
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+section {
+  max-width: 90%;
+  }
+#sitetitle{
+  text-align: center;
+  left: 20px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 360px) {
+label{
+  padding:5px 0px;
+  }
+#sitetitle{
+  font-size: 20px;
+  text-align: center;
+  }
+nav{
+   margin:0;
+  padding:0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #sitetitle{
+    text-align: center;
+  }
+
+}
+.titleBox{
+  font-size:12px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top:0px;
+ 
+}
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    height:20px;
+    padding-bottom: 20%;
+}
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+ .boxInner img { width: 100% }
+
+
+@media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}
+/*Login modal*/
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid pink;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  height:270px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container h4{
+  font-family: 'Rozha One', serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 85%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: black;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .button {
+  background-color: black;
+  color: white;
+  padding: 6px 0px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  display: inline;
+}
+
+
+.form-container .cancel {
+  background-color: black;
+  margin-top: 50px;
+}
+
+.form-container .button:hover, .open-button:hover {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width:1080px){
+  .form-container{
+    height:350px;
+  }
+  .form-container .button {
+    height:30px;
+    width: 70px;
+    font-size:15px;
+
+  }
+
+
+}

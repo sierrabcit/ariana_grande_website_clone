@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sierra Schuss Final Project - HTML5 and CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+<header>  
+<section>
+<label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+<input type="checkbox" id="toggle-1">
+<h1><a href="index.html" id="sitetitle">Ariana Grande</a></h1>
+
+ <!-- Login Modal --> 
+<div class="form-popup" id="loginform">
+  <form action="#" class="form-container">
+    <h4>Login</h4>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="password" required>
+
+    <button type="submit" class="button">Login</button>
+    <button type="button" class="button cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<!-- -----------------  -->  
+<nav>
+<ul>
+<li><a href="#" class="fa fa-facebook"></a></li>
+<li><a href="#" class="fa fa-instagram"></a></li>
+<li><a href="#" class="fa fa-music"></a></li>
+<li><a href="#" class="fa fa-spotify"></a></li>
+<li><a href="#" class="fa fa-twitter"></a></li>
+<li><a href="#" class="fa fa-youtube"></a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="#" onclick="openForm()" id="open-button">Login</a></li>
+</ul>
+</nav>
+  </section>
+    </header>
+ 
+<section id="tyn-album" class="content">
+  <div>
+  <img src="img/tun.jpg"/>
+   <a href="#" class="overlap" style="top:75%;text-align: center;">thank u, next merch</a>
+     <button style="top:95%;">Shop now</button>
+  <img src="img/tun-merch.jpg"/>
+  </div>
+</section>
+     
+<section id="7rings" class="content">
+  <div>
+  <img src="img/7rings1.jpg"/>
+   <a href="https://www.youtube.com/watch?v=QYh6mYIJG2Y" target="_blank" class="overlap" style="top:75%;">7 rings  &#9658;</a>
+  <img src="img/7rings2.jpg"/>
+  </div>
+</section>
+
+<section id="imagine" class="content">
+  <a href="https://www.youtube.com/watch?v=7_rftpd0u0U" target="_blank" class="overlap" style="top:50%;">imagine &#9658;</a>  
+  <img src="img/imagine.jpg"/>
+</section>
+
+<section id="tyn" class="content">
+  <a target="_blank" href="https://www.youtube.com/watch?v=gl1aHhXnN1k" class="overlap" style="top:50%;">thank u, next &#9658;</a>
+<img src="img/tyn_vid.jpg"/>
+</section>
+    
+<section id="tour" class="content">
+<a href="events.html"><img src="img/tour.jpg"/></a>
+</section>
+
+<section id="breathin" class="content">
+   <a href="https://www.youtube.com/watch?v=kN0iD0pI3o0" target="_blank" class="overlap" style="top:50%;">breathin &#9658;</a>  
+  <img src="img/breathin.jpg"/>
+</section>
+
+<section id="tyn2" class="content">
+    <img src="img/tyn.jpg"/>
+</section>
+    
+<section id="sweetener" class="content">
+  <a href="https://www.youtube.com/playlist?list=PL87uMRJ-6SAMj10QFJokz5-Wh0XBygkbp" target="_blank" class="overlap2">Sweetener</a>
+  <a href="https://www.youtube.com/playlist?list=PL87uMRJ-6SAMj10QFJokz5-Wh0XBygkbp" target="_blank"><button style="top:60%;">Listen Now</button></a>
+  <img src="img/ariana-grande-sweetener.png"/>
+</section>
+    
+<section id="godisawoman" class="content">
+  <a href="music/woman.html" class="overlap3">God is a woman</a>
+  <button style="top:30%;"><a href="music/woman.html">Listen Now</a></button>
+  <img src="img/god-is-a-woman-21.jpg"/>
+    <a href="https://www.youtube.com/watch?v=kHLHSlExFis" target="_blank" class="overlap" style="top:75%;">God is a woman &#9658;</a>
+    <img src="img/godisawoman_music.jpg"/>
+</section>
+
+<section id="ntltc" class="content">
+  <a href="music/tears.html" style="top:10%;" class="overlap4">No tears left to cry</a>
+  <button style="left:750px;top:30%;"><a href="music/tears.html">Listen Now</a></button>
+  <img src="img/ntltc.jpeg"/>
+  <a href="https://www.youtube.com/watch?v=ffxKSjUwKdU" target="_blank" style="top:75%;text-align: center;" class="overlap">No tears left to cry &#9658;</a>
+  <img src="img/No-Tears-Left-to-Cry-Ariana-Grande-symbolise-le-MK-Monarch_5.jpg"/>  
+</section>
+
+<section id="light" class="content">
+  <a href="music/light.html" class="overlap" style="top:50%;font-size:2em;text-align: center;">The Light Is Coming ft. Nicki Minaj</a>
+  <a href="music/light.html"></a><button style="top:80%;">Listen Now</button>
+  <img src="img/thelight.png"/>
+</section>
+    
+<section id="perfume" class="content">
+  <a href="#" class="overlap2" style="top:0%;font-size: 2em;text-align: center;">Fragrance</a>
+  <img style="width: 20%; position:absolute;left:40%;top:25%;" src="img/product-fragrance.jpg"/>
+  <a href="#" class="overlap2" style="top:65%;font-size: 1em;text-align: center;">Available only in the US</a>
+   <button style="top:80%;">Learn More</button>
+  <img src="img/bg-fragrance-c.jpg"/>
+</section>
+
+<footer>
+ <a href="#"><img src="img/RR2.jpg"/></a>
+  <nav>
+<ul>
+<li><a href="#">Copyright Republic Records</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Why Music Matters</a></li>
+</ul>
+</nav>
+    </footer>
+ <script src="js/login.js"></script>
+  </body>
+</html>
